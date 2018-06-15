@@ -11,10 +11,11 @@ b=a%10;
 c+=b*b*b;
 a=a/10;
 }
-if(d==original){
+if(c==original){
 System.out.println("the given number is armstrong number");
 }
 else{
-System.out.println("the given number is not a prime number");
+System.out.println("the given number is not a armstrong number");
+}
 }
 }
